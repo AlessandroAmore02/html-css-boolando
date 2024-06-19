@@ -10,6 +10,7 @@
 .container {
     max-width: 1024px;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .row {
@@ -82,7 +83,71 @@ img {
 
 
 .col {
-    display: flex;
     width: calc(100% / 4);
+    border-style: solid;
+    border-color: #E7E7E7;
+    border-width: 2px;
+}
 
+.footer-article {
+    width: calc(100% / 4);
+}
+
+
+.brand {
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+
+.type {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.price {
+    display: inline-block;
+    font-size: 15px;
+    color: red;
+}
+
+
+.price-full {
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+
+article {
+    margin-left: 5px;
+
+}
+
+
+.page-footer {
+    background-color: #1A1A1A;
+    height: 80px;
+    color: white;
+    padding-top: 10px;
+}
+
+
+
+.flex-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.azienda {}
+
+
+.social {}
+
+
+.info {
+    font-size: 10px;
 }
