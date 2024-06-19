@@ -1,3 +1,4 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -37,6 +38,7 @@ img {
 }
 
 
+/* Header style */
 .page-header {
     background-color: #FC6D44;
     display: flex;
@@ -51,7 +53,7 @@ img {
     height: 20px;
 }
 
-
+/* Disposizione navbar con flex */
 .navbar {
     padding: 0px 10px;
     color: white;
@@ -68,6 +70,7 @@ img {
 }
 
 
+/* Titolo e sottotitolo Boolando */
 .title {
     margin-top: 50px;
     text-align: center;
@@ -82,6 +85,7 @@ img {
 }
 
 
+/* Stile Items  del flex */
 .col {
     width: calc(100% / 4);
     border-style: solid;
@@ -89,11 +93,8 @@ img {
     border-width: 2px;
 }
 
-.footer-article {
-    width: calc(100% / 4);
-}
 
-
+/* Disposizione e stile della parte riguardante brand, tipo di prodotto e prezzo */
 .brand {
     margin-top: 5px;
     font-size: 13px;
@@ -126,6 +127,7 @@ article {
 }
 
 
+/* Footer della pagina */
 .page-footer {
     background-color: #1A1A1A;
     height: 80px;
@@ -140,12 +142,6 @@ article {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-
-.azienda {}
-
-
-.social {}
 
 
 .info {
